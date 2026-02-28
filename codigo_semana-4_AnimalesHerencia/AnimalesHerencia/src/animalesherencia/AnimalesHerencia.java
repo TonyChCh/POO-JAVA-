@@ -15,11 +15,12 @@ public class AnimalesHerencia {
      */
     public static void main(String[] args) {
         // Polimorfismo: array de tipo Animal con objetos Perro y Gato
-        Animal[] animales = new Animal[4];
+        Animal[] animales = new Animal[5];
         animales[0] = new Perro("Fido", 3, "Labrador");
         animales[1] = new Gato("Michi", 2, "Blanco");
         animales[2] = new Perro("Rex", 5, "Pastor Alemán");
         animales[3] = new Gato("Luna", 1, "Negro");
+        animales[4] = new Animal("Sol", 7, "Test");
 
         // Recorrer el arreglo usando polimorfismo
         for (Animal a : animales) {
